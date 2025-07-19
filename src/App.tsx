@@ -75,7 +75,7 @@ function App() {
   const [totalPages, setTotalPages] = useState(1);
   const [isTriggering, setIsTriggering] = useState(false);
 
-  const API_BASE_URL = 'https://job-portal-backend-kappa-blue.vercel.app';
+  const API_BASE_URL = 'https://job-portal-backend-kappa-blue.vercel.app/api';
 
   useEffect(() => {
     fetchData();
